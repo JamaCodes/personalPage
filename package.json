@@ -1,9 +1,9 @@
 {
-  "name": "trydo",
+  "name": "Jama",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://trydo.rainbowit.net",
-  "basename": "/",
+  "homepage": "https://jamacodes.github.io/personalPage",
+  "basename": "https://jamacodes.github.io",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -88,7 +88,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
