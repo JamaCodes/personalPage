@@ -8,8 +8,8 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
+
+
 
 const SlideList = [
     {
@@ -23,7 +23,7 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = 'I earned a Bachelor’s of Fine Arts in Digital Filmmaking in 2012.  My goal as a disability advocate, artist, software developer and Nashvillian is to lift barriers to make a more livable community. I want to bring folks together engage with each other and learn from one another. I’ve made middle Tennessee my home, and I want it to be better. I believe the best way to do that is through techology and creative placemaking.';
-    const PostList = BlogContent.slice(0 , 3);
+    
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />

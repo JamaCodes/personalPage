@@ -4,34 +4,34 @@ import {Link} from "react-router-dom";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Front End Capstone',
+        title: 'Email Advocacy Campaign builder'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Group Project',
+        title: 'Nutshell',
     },
     {
         image: 'image-3',
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
+    // {
+    //     image: 'image-4',
+    //     category: 'Development',
+    //     title: 'Getting tickets to the big show'
+    // },
+    // {
+    //     image: 'image-3',
+    //     category: 'Development',
+    //     title: 'Getting tickets to the big show'
+    // },
+    // {
+    //     image: 'image-4',
+    //     category: 'Development',
+    //     title: 'Getting tickets to the big show'
+    // }
 ]
 
 class PortfolioList extends Component{
